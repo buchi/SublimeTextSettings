@@ -1,0 +1,6 @@
+name: Symbol List
+scope: text.xml.zcml string.quoted.definedname.zcml
+settings:
+    showInSymbolList: 1
+    showInIndexedSymbolList: 1
+uuid: 2e6a89cb-9649-40c3-b0c3-f192e59b437d
