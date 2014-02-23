@@ -1,0 +1,8 @@
+fileTypes:
+- pt
+- cpt
+name: ZPT
+patterns:
+-   include: text.html.basic
+scopeName: text.html.zpt
+uuid: EA7F3BDB-EE02-4789-9424-5F6AD0AF69CF
