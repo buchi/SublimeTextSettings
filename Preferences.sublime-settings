@@ -1,0 +1,25 @@
+{
+	"color_scheme": "Packages/User/Mac Classic.tmTheme",
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"bin",
+		"var",
+		"eggs",
+		"*.egg-info",
+		"develop-eggs"
+	],
+	"font_face": "Meslo LG S",
+	"font_size": 12.0,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"show_encoding": true,
+	"show_line_endings": true,
+	"theme": "Soda Light 3.sublime-theme"
+}

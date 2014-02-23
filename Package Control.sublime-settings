@@ -1,0 +1,15 @@
+{
+	"installed_packages":
+	[
+		"FileDiffs",
+		"Origami",
+		"PackageResourceViewer",
+		"Puppet",
+		"SerializedDataConverter",
+		"SublimeGit",
+		"SublimeLinter",
+		"SublimeLinter-flake8",
+		"SublimeLinter-jshint",
+		"Theme - Soda"
+	]
+}
