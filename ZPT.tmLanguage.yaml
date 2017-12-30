@@ -1,6 +1,7 @@
 fileTypes:
 - pt
 - cpt
+- zpt
 name: ZPT
 patterns:
 -   include: text.html.basic

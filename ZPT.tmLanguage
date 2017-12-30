@@ -6,6 +6,7 @@
 	<array>
 		<string>pt</string>
 		<string>cpt</string>
+		<string>zpt</string>
 	</array>
 	<key>name</key>
 	<string>ZPT</string>
