@@ -2,5 +2,7 @@
     "tab_size": 4,
     "translate_tabs_to_spaces": true,
     "detect_indentation": false,
-    "rulers": [79]
+    "rulers": [79],
+    "draw_white_space": "all",
+    "trim_trailing_white_space_on_save": false
 }
