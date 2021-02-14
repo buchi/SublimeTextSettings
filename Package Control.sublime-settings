@@ -1,15 +1,37 @@
 {
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
+		"Dockerfile Syntax Highlighting",
+		"Edit Command Palette",
 		"FileDiffs",
-		"Origami",
+		"Filter Lines",
+		"GitSavvy",
+		"Indent XML",
+		"isort",
+		"JSON Reindent",
+		"JsPrettier",
+		"LESS",
+		"OmniMarkupPreviewer",
+		"Package Control",
 		"PackageResourceViewer",
 		"Puppet",
+		"Sass",
 		"SerializedDataConverter",
-		"SublimeGit",
+		"SideBarEnhancements",
+		"sublack",
 		"SublimeLinter",
+		"SublimeLinter-eslint",
 		"SublimeLinter-flake8",
-		"SublimeLinter-jshint",
-		"Theme - Soda"
+		"SublimeLinter-json",
+		"Sync View Scroll",
+		"Theme - SoDaReloaded",
+		"TrailingSpaces",
+		"TypeScript Syntax",
+		"VAlign",
+		"Vue Syntax Highlight"
 	]
 }

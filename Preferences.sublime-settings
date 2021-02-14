@@ -1,25 +1,62 @@
 {
-	"color_scheme": "Packages/User/Mac Classic.tmTheme",
+	"binary_file_patterns":
+	[
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip",
+		"node_modules/"
+	],
+	"color_scheme": "Mac Classic.sublime-color-scheme",
+	"color_scheme.dark": "Monokai.sublime-color-scheme",
+	"color_scheme.light": "Mac Classic.sublime-color-scheme",
 	"folder_exclude_patterns":
 	[
 		".svn",
 		".git",
 		".hg",
 		"CVS",
-		"bin",
+		"bbin",
 		"var",
 		"eggs",
+		"/lib",
+		"include",
 		"*.egg-info",
-		"develop-eggs"
+		".eggs",
+		".pytest_cache",
+		"develop-eggs",
+		"dist",
+		"parts"
 	],
-	"font_face": "Meslo LG S",
-	"font_size": 12.0,
 	"highlight_line": true,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
+	"index_exclude_patterns":
+	[
+		"*.log",
+		"node_modules/",
+		"parts/",
+		"lib/"
+	],
+	"isort.sort_on_save": false,
+	"rulers":
+	[
+		79
+	],
 	"show_encoding": true,
 	"show_line_endings": true,
-	"theme": "Soda Light 3.sublime-theme"
+	"theme": "SoDaReloaded Light.sublime-theme",
+	"theme.dark": "SoDaReloaded Dark.sublime-theme",
+	"theme.light": "SoDaReloaded Light.sublime-theme"
 }

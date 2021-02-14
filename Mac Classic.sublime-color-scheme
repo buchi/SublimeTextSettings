@@ -1,0 +1,266 @@
+{
+    "name": "Mac Classic",
+    "author": "Chris Thomas",
+    "variables":
+    {
+        "black": "#000000",
+        "blue": "#0066ff",
+        "blue2": "#4d97ff",
+        "blue3": "#21439c",
+        "blue4": "#6d79de",
+        "blue5": "#3c4c72",
+        "blue6": "#687687",
+        "blue7": "#585cf6",
+        "blue8": "#0000a2",
+        "blue9": "#0000cd",
+        "blue10": "#0000ff",
+        "blue11": "#0c07ff",
+        "cyan": "#318495",
+        "green": "#26b31a",
+        "green2": "#1a921c",
+        "green3": "#036a07",
+        "green4": "#06960e",
+        "green5": "#0c450d",
+        "grey": "#70727e",
+        "grey2": "#68685b",
+        "grey3": "#bfbfbf",
+        "grey4": "#888888",
+        "pink": "#b90690",
+        "purple": "#1c02ff",
+        "red": "#990000",
+        "red2": "#c5060b",
+        "white": "#ffd0d0",
+        "white2": "#ffffff"
+    },
+    "globals":
+    {
+        "foreground": "var(black)",
+        "background": "var(white2)",
+        "caret": "var(black)",
+        "invisibles": "var(grey3)",
+        "line_highlight": "color(var(black) alpha(0.071))",
+        "selection": "color(var(blue2) alpha(0.33))"
+    },
+    "rules":
+    [
+        {
+            "name": "Comment",
+            "scope": "comment",
+            "foreground": "var(blue)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Keyword",
+            "scope": "keyword, storage",
+            "foreground": "var(blue10)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Number",
+            "scope": "constant.numeric",
+            "foreground": "var(blue9)"
+        },
+        {
+            "name": "User-defined constant",
+            "scope": "constant",
+            "foreground": "var(red2)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Built-in constant",
+            "scope": "constant.language",
+            "foreground": "var(blue7)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Variable",
+            "scope": "variable.language, variable.other",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "String",
+            "scope": "string",
+            "foreground": "var(green3)"
+        },
+        {
+            "name": "String interpolation",
+            "scope": "constant.character.escape, string source",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "Preprocessor line",
+            "scope": "meta.preprocessor",
+            "foreground": "var(green2)"
+        },
+        {
+            "name": "Preprocessor directive",
+            "scope": "keyword.control.import",
+            "foreground": "var(green5)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Function name",
+            "scope": "entity.name.function, support.function.any-method",
+            "foreground": "var(blue8)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Type name",
+            "scope": "entity.name.type",
+            "font_style": "underline"
+        },
+        {
+            "name": "Inherited class name",
+            "scope": "entity.other.inherited-class",
+            "font_style": "italic"
+        },
+        {
+            "name": "Function parameter",
+            "scope": "variable.parameter",
+            "font_style": "italic"
+        },
+        {
+            "name": "Function argument and result types",
+            "scope": "storage.type.method",
+            "foreground": "var(grey)"
+        },
+        {
+            "name": "Section",
+            "scope": "meta.section entity.name.section, declaration.section entity.name.section",
+            "font_style": "italic"
+        },
+        {
+            "name": "Library function",
+            "scope": "support.function",
+            "foreground": "var(blue5)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Library object",
+            "scope": "support.class, support.type",
+            "foreground": "var(blue4)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Library constant",
+            "scope": "support.constant",
+            "foreground": "var(green4)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Library variable",
+            "scope": "support.variable",
+            "foreground": "var(blue3)",
+            "font_style": "bold"
+        },
+        {
+            "name": "JS: Operator",
+            "scope": "keyword.operator.js",
+            "foreground": "var(blue6)"
+        },
+        {
+            "name": "Invalid",
+            "scope": "invalid",
+            "foreground": "var(white2)",
+            "background": "var(red)"
+        },
+        {
+            "name": "Invalid trailing whitespace",
+            "scope": "invalid.deprecated.trailing-whitespace",
+            "background": "var(white)"
+        },
+        {
+            "name": "Embedded source",
+            "scope": "text source, string.unquoted",
+            "background": "color(var(black) alpha(0.051))"
+        },
+        {
+            "name": "Embedded embedded source",
+            "scope": "text source string.unquoted, text source text source",
+            "background": "color(var(black) alpha(0.059))"
+        },
+        {
+            "name": "Markup XML declaration",
+            "scope": "meta.tag.preprocessor.xml",
+            "foreground": "var(grey2)"
+        },
+        {
+            "name": "Markup DOCTYPE",
+            "scope": "meta.tag.sgml.doctype, meta.tag.sgml.doctype entity, meta.tag.sgml.doctype string, meta.tag.preprocessor.xml, meta.tag.preprocessor.xml entity, meta.tag.preprocessor.xml string",
+            "foreground": "var(grey4)"
+        },
+        {
+            "name": "Markup DTD",
+            "scope": "string.quoted.docinfo.doctype.DTD",
+            "font_style": "italic"
+        },
+        {
+            "name": "Markup tag",
+            "scope": "meta.tag, declaration.tag",
+            "foreground": "var(purple)"
+        },
+        {
+            "name": "Markup name of tag",
+            "scope": "entity.name.tag",
+            "font_style": "bold"
+        },
+        {
+            "name": "Markup tag attribute",
+            "scope": "entity.other.attribute-name",
+            "font_style": "italic"
+        },
+        {
+            "name": "Markup: Heading",
+            "scope": "markup.heading",
+            "foreground": "var(blue11)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Markup: Quote",
+            "scope": "markup.quote",
+            "foreground": "var(black)",
+            "font_style": "italic"
+        },
+        {
+            "name": "Markup: List",
+            "scope": "markup.list",
+            "foreground": "var(pink)"
+        },
+        {
+            "scope": "diff.inserted",
+            "background": "#e6ffed"
+        },
+        {
+            "scope": "diff.inserted.char",
+            "background": "#acf2bd"
+        },
+        {
+            "scope": "markup.inserted.diff",
+            "background": "#e6ffed"
+        },
+        {
+            "scope": "diff.deleted",
+            "background": "#ffeef0"
+        },
+        {
+            "scope": "diff.deleted.char",
+            "background": "#fdb8c0"
+        },
+        {
+            "scope": "markup.deleted.diff",
+            "background": "#ffeef0"
+        },
+        {
+            "scope": "markup.warning",
+            "foreground": "#DDB700"
+        },
+        {
+            "scope": "markup.error",
+            "foreground": "#D02000"
+        },
+        {
+            "scope": "meta.diff.header, meta.diff.range, string.unquoted.from-file.diff, string.unquoted.to-file.diff",
+            "background": "#e3f2fd"
+        }
+    ]
+}
